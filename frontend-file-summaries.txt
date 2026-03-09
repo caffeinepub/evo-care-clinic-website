@@ -1,0 +1,13 @@
+{
+  "frontend/src/App.tsx": "Main application component that orchestrates the entire website layout with Header, Hero, About, Services, Gallery, Doctor, Contact, and Footer sections, wrapped with ThemeProvider and Toaster for notifications.",
+  "frontend/src/hooks/useQueries.ts": "Custom React Query hooks for backend integration including contact form submission, appointment booking, and regional clinic information retrieval with proper error handling and cache invalidation.",
+  "frontend/src/components/Header.tsx": "Responsive navigation header with logo, desktop/mobile menus, smooth scroll navigation, and prominent contact information with sticky behavior on scroll.",
+  "frontend/src/components/Hero.tsx": "Eye-catching hero section featuring clinic branding, key service icons (Skin, Hair, Laser, Ayurveda), call-to-action buttons, and decorative gradient backgrounds with animated elements.",
+  "frontend/src/components/About.tsx": "About section showcasing clinic features, mission statement, and treatment philosophy with feature cards and an engaging visual layout using clinic images.",
+  "frontend/src/components/Services.tsx": "Comprehensive services showcase displaying all five main treatments (PRP Hair Restoration, Acne Care, Skin Brightening, Glutathione IV Drip, Skin Rejuvenation) with detailed cards, benefits, and booking CTAs, plus special offer banner.",
+  "frontend/src/components/Gallery.tsx": "Interactive image gallery displaying all eight clinic treatment images in a responsive grid with hover effects and modal lightbox functionality for enlarged viewing.",
+  "frontend/src/components/Doctor.tsx": "Professional doctor profile section for Dr. Jeel Sejpal featuring credentials, specializations, contact information, and a visually appealing card layout with badges.",
+  "frontend/src/components/Contact.tsx": "Comprehensive contact section with dual-tab forms (contact and appointment booking), regional clinic location selector by continent, contact information cards, and integration with backend mutations.",
+  "frontend/src/components/Footer.tsx": "Full-featured footer with clinic information, quick navigation links, services list, contact details, social media links, and attribution with proper branding.",
+  "frontend/src/index.css": "Custom OKLCH color system implementing soft purple and white theme throughout light and dark modes, with enhanced design tokens for the medical/clinic aesthetic."
+}

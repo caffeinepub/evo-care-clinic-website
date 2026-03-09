@@ -1,0 +1,105 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    :root {
+        --radius: 0.75rem;
+        
+        /* Purple and White Theme for Evo Care Clinic */
+        --background: 1 0 0;
+        --foreground: 0.145 0 0;
+        
+        --card: 1 0 0;
+        --card-foreground: 0.145 0 0;
+        
+        --popover: 1 0 0;
+        --popover-foreground: 0.145 0 0;
+        
+        /* Primary: Rich Purple */
+        --primary: 0.55 0.18 300;
+        --primary-foreground: 1 0 0;
+        
+        /* Secondary: Soft Purple */
+        --secondary: 0.95 0.05 300;
+        --secondary-foreground: 0.35 0.15 300;
+        
+        /* Muted: Light Purple Gray */
+        --muted: 0.96 0.02 300;
+        --muted-foreground: 0.5 0.05 300;
+        
+        /* Accent: Vibrant Purple */
+        --accent: 0.65 0.22 310;
+        --accent-foreground: 1 0 0;
+        
+        --destructive: 0.577 0.245 27.325;
+        --destructive-foreground: 1 0 0;
+        
+        --border: 0.92 0.02 300;
+        --input: 0.92 0.02 300;
+        --ring: 0.55 0.18 300;
+        
+        /* Chart colors with purple theme */
+        --chart-1: 0.55 0.18 300;
+        --chart-2: 0.65 0.22 310;
+        --chart-3: 0.70 0.15 280;
+        --chart-4: 0.60 0.20 320;
+        --chart-5: 0.75 0.12 290;
+    }
+
+    .dark {
+        --background: 0.15 0.05 300;
+        --foreground: 0.98 0.02 300;
+        
+        --card: 0.20 0.08 300;
+        --card-foreground: 0.98 0.02 300;
+        
+        --popover: 0.18 0.06 300;
+        --popover-foreground: 0.98 0.02 300;
+        
+        --primary: 0.75 0.20 300;
+        --primary-foreground: 0.15 0.05 300;
+        
+        --secondary: 0.25 0.10 300;
+        --secondary-foreground: 0.98 0.02 300;
+        
+        --muted: 0.25 0.08 300;
+        --muted-foreground: 0.65 0.08 300;
+        
+        --accent: 0.60 0.22 310;
+        --accent-foreground: 0.98 0.02 300;
+        
+        --destructive: 0.65 0.25 27;
+        --destructive-foreground: 0.98 0.02 300;
+        
+        --border: 0.30 0.10 300;
+        --input: 0.30 0.10 300;
+        --ring: 0.65 0.18 300;
+        
+        --chart-1: 0.65 0.22 310;
+        --chart-2: 0.70 0.18 290;
+        --chart-3: 0.60 0.20 320;
+        --chart-4: 0.75 0.15 280;
+        --chart-5: 0.55 0.25 330;
+    }
+
+    * {
+        @apply border-border;
+    }
+    
+    body {
+        @apply bg-background text-foreground;
+        font-feature-settings: "rlig" 1, "calt" 1;
+    }
+    
+    html {
+        scroll-behavior: smooth;
+    }
+}
+
+@layer utilities {
+    .text-balance {
+        text-wrap: balance;
+    }
+}
+
